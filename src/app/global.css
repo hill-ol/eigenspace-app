@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+    html {
+        font-family: Georgia, "Times New Roman", serif;
+    }
+
+    .font-mono {
+        font-family: var(--font-mono), monospace;
+    }
+
+    .font-serif {
+        font-family: var(--font-serif), Georgia, serif;
+    }
+}
+
+@layer components {
+    .prose-eigenspace {
+        @apply text-zinc-800 leading-8 text-lg;
+    }
+
+    .prose-eigenspace p {
+        @apply mb-6;
+    }
+
+    .prose-eigenspace h2 {
+        @apply mt-16 mb-4 font-serif text-3xl font-bold tracking-tight text-zinc-900;
+    }
+
+    .prose-eigenspace h3 {
+        @apply mt-10 mb-3 font-serif text-xl font-semibold text-zinc-900;
+    }
+}
