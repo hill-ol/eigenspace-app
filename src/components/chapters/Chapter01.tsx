@@ -16,7 +16,7 @@ export default function Chapter01() {
             <section>
                 <h2>Space as a function</h2>
                 <p>
-                    A matrix is not just a grid of numbers. It is a <em>function</em> —
+                    A matrix is not just a grid of numbers. It is a <em>function</em> --
                     one that takes every point in 2D space and moves it somewhere else.
                     The matrix <InlineMath math="A" /> applied to a vector{" "}
                     <InlineMath math="\mathbf{v}" /> produces a new vector{" "}
@@ -24,7 +24,7 @@ export default function Chapter01() {
                 </p>
                 <p>
                     The most natural way to understand what a matrix <em>does</em> is to
-                    watch it act on the entire plane at once — every gridline, every
+                    watch it act on the entire plane at once -- every gridline, every
                     point, transformed simultaneously.
                 </p>
             </section>
@@ -58,7 +58,7 @@ export default function Chapter01() {
                 <p>
                     Notice that the transformed red arrow always lands on the first
                     column of your matrix, and the blue arrow on the second. This is not
-                    a coincidence — it is the definition. A matrix{" "}
+                    a coincidence -- it is the definition. A matrix{" "}
                     <InlineMath math="A" /> tells you exactly where the two basis vectors
                     go, and everything else follows by linearity.
                 </p>
@@ -66,7 +66,7 @@ export default function Chapter01() {
                 <p>
                     Any vector <InlineMath math="\mathbf{v} = x\mathbf{e}_1 + y\mathbf{e}_2" />{" "}
                     gets sent to{" "}
-                    <InlineMath math="xA\mathbf{e}_1 + yA\mathbf{e}_2" /> — a weighted
+                    <InlineMath math="xA\mathbf{e}_1 + yA\mathbf{e}_2" /> -- a weighted
                     combination of those two destinations. The whole transformation is
                     determined by just four numbers.
                 </p>
@@ -77,7 +77,7 @@ export default function Chapter01() {
                 <p>
                     As you manipulate the matrix, pay attention to a specific
                     question: are there any vectors whose <em>direction</em> does not
-                    change? They may get longer or shorter — but they stay on the same
+                    change? They may get longer or shorter -- but they stay on the same
                     line through the origin. Those vectors are special. They are the
                     subject of every chapter that follows.
                 </p>

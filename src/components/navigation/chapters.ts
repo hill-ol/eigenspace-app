@@ -23,14 +23,14 @@ export const chapters: Chapter[] = [
         title: "Vectors That Survive",
         subtitle: "The geometric intuition",
         description:
-            "Most vectors get knocked off their span by a transformation. A special few don't. We find them without a single formula.",
+            "Most vectors get knocked off their span by a transformation. A special few do not. We find them without a single formula.",
         status: "available",
     },
     {
         slug: "characteristic-equation",
         number: 3,
         title: "The Characteristic Equation",
-        subtitle: "det(A − λI) = 0",
+        subtitle: "det(A - λI) = 0",
         description:
             "Where the algebra catches up with the geometry. We derive the characteristic polynomial and learn to solve it.",
         status: "available",
